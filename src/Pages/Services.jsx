@@ -1,75 +1,138 @@
 const Services = () => {
   return (
-    <div className="bg-white">
-      <div className="container mx-auto px-4 py-12">
-        <h1 className="text-4xl font-bold text-gray-900">
-          Empowering Health, Enriching Lives
-        </h1>
-        <p className="text-lg text-gray-600 mt-4">
-          We are committed to providing high-quality, compassionate care to
-          every patient we serve. Whatever your healthcare needs may be, you can
-          trust us to be your partner in health and wellness.
-        </p>
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-6">
-          Service
-        </button>
-        <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mt-6">
-          Appointment ➡️
-        </button>
-      </div>
-      <div className="container mx-auto px-4 py-12">
+    <div className="bg-white container ">
+      <div className="mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="flex justify-center items-center">
+          <div className="text-start mx-auto px-4 ">
+            <button className=" py-2 px-4 border rounded-full flex items-center ">
+              Service
+            </button>
+            <h1 className=" text-4xl font-semibold text-[#020043] mt-5">
+              Empowering Health, <br /> Enriching Lives
+            </h1>
+            <p className="text-lg text-[#4D4C7B] mt-4">
+              We are committed to providing high-quality, compassionate care to
+              every patient we serve. Whatever your healthcare needs may be, you
+              can trust us to be your partner in health and wellness.
+            </p>
+            <button className="font-semibold bg-amber-400 py-2 px-4 mt-20 border rounded-md flex items-center space-x-2 ">
+              Learn more
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-5 h-5 pl-1"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
+              </svg>
+            </button>
+          </div>
+          <div className="flex relative justify-center items-center ">
             <img
-              src="https://images.unsplash.com/photo-1503023345541-a71084147003?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+              src="https://res.cloudinary.com/dvdewrd4a/image/upload/v1720030519/Rectangle_27-2_xrbtne.png"
               alt="Doctor examining x-ray"
-              className="w-full h-auto"
+              className="w-full h-auto rounded-xl"
             />
-          </div>
-          <div className="flex justify-center items-center">
-            <img
-              src="https://images.unsplash.com/photo-1505419475480-c6e89d996b76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-              alt="Doctor using a computer"
-              className="w-full h-auto"
-            />
-          </div>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-          <div className="flex justify-center items-center">
-            <img
-              src="https://images.unsplash.com/photo-1505419475480-c6e89d996b76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-              alt="Doctor talking to patient"
-              className="w-full h-auto"
-            />
-          </div>
-          <div className="flex justify-center items-center">
-            <img
-              src="https://images.unsplash.com/photo-1503023345541-a71084147003?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-              alt="Doctor explaining to patient"
-              className="w-full h-auto"
-            />
-            <div className="absolute bottom-10 left-10 bg-white p-4 rounded shadow-md">
-              <h3 className="text-xl font-bold text-gray-900">
-                Consultancy your health
-              </h3>
-              <p className="text-gray-600 mt-2">
-                Our surgeons are trained in the latest robotic surgical
-                techniques, which allow for greater precision.
-              </p>
-              <div className="flex items-center mt-4">
-                <span className="text-gray-600">321 x 144</span>
+            <div className=" flex bg-[#020043] absolute rounded-xl p-2 text-left h-[114px]  w-[321px] left-5 bottom-5 opacity-80">
+              <div className="flex-1">
+                <h2 className="text-xl font-medium text-white">
+                  Advanced Technology
+                </h2>
+                <p className="text-xs text-[#FFFFF5] mt-4">
+                  Our surgeons are trained in the latest robotic surgical
+                  techniques, which allow for greater precision
+                </p>
+              </div>
+              <button className=" bg-amber-400 mt-20  border rounded-full space-x-2 ">
                 <svg
-                  className="ml-2 h-4 w-4 text-gray-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="w-5 h-5 "
                 >
                   <path
-                    fillRule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L11.414 11H17a1 1 0 100-2H11.414l1.293-1.293z"
-                    clipRule="evenodd"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
                   />
                 </svg>
+              </button>
+            </div>
+          </div>
+          <div className="flex relative justify-center items-center">
+            <img
+              src="https://res.cloudinary.com/dvdewrd4a/image/upload/v1720030511/Rectangle_27-1_goar5y.png"
+              alt="Doctor using a computer"
+              className="w-full h-auto rounded-xl"
+            />
+            <div className=" flex bg-[#020043] absolute rounded-xl p-2 text-left h-[114px]  w-[321px] left-5 bottom-5 opacity-80">
+              <div className="flex-1">
+                <h2 className="text-xl font-medium text-white">
+                  Online Doctor Meet
+                </h2>
+                <p className="text-xs text-[#FFFFF5] mt-4">
+                  Our surgeons are trained in the latest robotic surgical
+                  techniques, which allow for greater precision
+                </p>
               </div>
+              <button className=" bg-amber-400 mt-20  border rounded-full space-x-2 ">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="w-5 h-5 "
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div className="flex relative justify-center items-center">
+            <img
+              src="https://res.cloudinary.com/dvdewrd4a/image/upload/v1720030502/Rectangle_27_pxjesy.png"
+              alt="Doctor talking to patient"
+              className="w-full h-auto rounded-xl"
+            />
+            <div className=" flex bg-[#020043] absolute rounded-xl p-2 text-left h-[114px]  w-[321px] left-5 bottom-5 opacity-80">
+              <div className="flex-1">
+                <h2 className="text-xl font-medium text-white">
+                  Consultancy your health
+                </h2>
+                <p className="text-xs text-[#FFFFF5] mt-4">
+                  Our surgeons are trained in the latest robotic surgical
+                  techniques, which allow for greater precision
+                </p>
+              </div>
+              <button className=" bg-amber-400 mt-20  border rounded-full space-x-2 ">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="w-5 h-5 "
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                  />
+                </svg>
+              </button>
             </div>
           </div>
         </div>

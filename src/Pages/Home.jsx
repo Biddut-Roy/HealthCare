@@ -1,3 +1,5 @@
+import Services from "./Services";
+
 const Home = () => {
   return (
     <div className="bg-gray-100">
@@ -204,6 +206,10 @@ const Home = () => {
               </div>
             </div>
           </div>
+        </div>
+        {/* services Container */}
+        <div className=" mt-40">
+          <Services />
         </div>
       </main>
     </div>

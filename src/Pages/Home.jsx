@@ -45,10 +45,11 @@ const Home = () => {
         </div>
       </header>
       {/* start a banner section */}
-      <div>
+      <div className="w-full container">
         <img
           src="https://res.cloudinary.com/dvdewrd4a/image/upload/v1720030483/Rectangle_5_lqwxmw.png"
           alt="Banner"
+          className="w-full h-[470px]"
         />
       </div>
       <main className="text-[#020043] container mx-auto py-12">

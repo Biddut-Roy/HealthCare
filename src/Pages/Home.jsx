@@ -25,7 +25,7 @@ const Home = () => {
               About us
             </a>
           </nav>
-          <button className="font-bold py-2 px-4 border rounded-xl flex items-center space-x-2">
+          <button className="font-semibold py-2 px-4 border rounded-xl flex items-center space-x-2">
             Appointment
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -145,6 +145,64 @@ const Home = () => {
               height={100}
               className="mx-auto"
             />
+          </div>
+        </div>
+        {/* banner-2 container */}
+        <div className="bg-white flex justify-between">
+          <div className="text-center flex-1">
+            <button className=" py-2 px-4 border rounded-full flex items-center ">
+              who we are
+            </button>
+            <div className=" text-left w-[470px]">
+              <h1 className="text-2xl font-bold text-[#1E1E1E] mt-5">
+                We Help To Get <br />
+                Solutions
+              </h1>
+              <p className="mt-4 text-[#1E1E1E]">
+                We are proud to be a trusted healthcare provider in our
+                community, and we look forward to serving you and your family
+                with excellence, integrity, and compassion. Your health is our
+                priority, and we are here for you every step of the way. We
+                believe in treating each patient with dignity, respect, and
+                empathy, ensuring that they receive the attention and care they
+                deserve.
+              </p>
+            </div>
+            <button className="font-semibold bg-amber-400 py-2 px-4 mt-20 border rounded-md flex items-center space-x-2 ">
+              Learn more
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-5 h-5 pl-1"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
+              </svg>
+            </button>
+          </div>
+          <div className="">
+            <div className="relative">
+              <img
+                src="https://res.cloudinary.com/dvdewrd4a/image/upload/v1720030492/Rectangle_24_g2vtap.png"
+                alt="Doctors"
+                className="rounded-md"
+              />
+              <div className="bg-[#343268] absolute rounded-xl p-6 text-left h-[210px]  w-[395px] -left-24 -bottom-10">
+                <h2 className="text-2xl font-medium text-white">
+                  Our Mission Is Simple
+                </h2>
+                <p className="mt-4 text-white">
+                  To provide high-quality healthcare services that are
+                  accessible, personalized, and patient-centered.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </main>

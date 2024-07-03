@@ -4,10 +4,15 @@ const Home = () => {
       <header className="bg-white shadow">
         <div className="container mx-auto py-4 flex justify-between items-center">
           <h1 className="font-bold text-xl">
-            <image src="/logo.svg" alt="Logo" width={50} height={50} />
+            <img
+              src="https://res.cloudinary.com/dvdewrd4a/image/upload/v1720030463/logo_dark_l6pehg.png"
+              alt="Logo"
+              height={70}
+              width={70}
+            />
           </h1>
-          <nav className="flex space-x-4">
-            <a href="#" className="hover:underline">
+          <nav className="flex space-x-4 text-[#020043]">
+            <a href="#" className="hover:underline ">
               Home
             </a>
             <a href="#" className="hover:underline">
@@ -19,13 +24,27 @@ const Home = () => {
             <a href="#" className="hover:underline">
               About us
             </a>
-            <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded">
-              Appointment
-            </button>
           </nav>
+          <button className="font-bold py-2 px-4 border rounded-xl flex items-center space-x-2">
+            Appointment
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="currentColor"
+              className="w-5 h-5 pl-1"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+              />
+            </svg>
+          </button>
         </div>
       </header>
-      <main className="container mx-auto py-12">
+      <main className="text-[#020043] container mx-auto py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-white rounded-md shadow p-6">
             <div className="text-center mb-4">
@@ -34,7 +53,7 @@ const Home = () => {
                 Patient satisfaction rate, reflecting our commitment.
               </p>
             </div>
-            <image
+            <img
               src="/chart.svg"
               alt="Chart"
               width={150}
@@ -51,7 +70,7 @@ const Home = () => {
               <div className="bg-white rounded-md shadow p-6 text-center">
                 <h2 className="text-3xl font-bold">500+</h2>
                 <p className="text-gray-500">Board-certified doctors</p>
-                <image
+                <img
                   src="/doctor.svg"
                   alt="Doctor"
                   width={50}
@@ -62,7 +81,7 @@ const Home = () => {
               <div className="bg-white rounded-md shadow p-6 text-center">
                 <h2 className="text-3xl font-bold">4.8</h2>
                 <p className="text-gray-500">Over 20,000 Patient</p>
-                <image
+                <img
                   src="/star.svg"
                   alt="Star"
                   width={30}
@@ -70,21 +89,21 @@ const Home = () => {
                   className="mx-auto"
                 />
                 <div className="flex justify-center mt-2">
-                  <image
+                  <img
                     src="/patient-1.jpg"
                     alt="Patient 1"
                     width={25}
                     height={25}
                     className="rounded-full mr-1"
                   />
-                  <image
+                  <img
                     src="/patient-2.jpg"
                     alt="Patient 2"
                     width={25}
                     height={25}
                     className="rounded-full mr-1"
                   />
-                  <image
+                  <img
                     src="/patient-3.jpg"
                     alt="Patient 3"
                     width={25}
@@ -96,7 +115,7 @@ const Home = () => {
               <div className="bg-white rounded-md shadow p-6 text-center">
                 <h2 className="text-3xl font-bold">$5000</h2>
                 <p className="text-gray-500">Money spend for poor patient</p>
-                <image
+                <img
                   src="/money.svg"
                   alt="Money"
                   width={50}
@@ -111,7 +130,7 @@ const Home = () => {
               <h2 className="text-3xl font-bold">50+</h2>
               <p className="text-gray-500">Free lesson video for patient</p>
             </div>
-            <image
+            <img
               src="/video.svg"
               alt="Video"
               width={100}

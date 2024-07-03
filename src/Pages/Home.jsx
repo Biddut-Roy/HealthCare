@@ -44,6 +44,13 @@ const Home = () => {
           </button>
         </div>
       </header>
+      {/* start a banner section */}
+      <div>
+        <img
+          src="https://res.cloudinary.com/dvdewrd4a/image/upload/v1720030483/Rectangle_5_lqwxmw.png"
+          alt="Banner"
+        />
+      </div>
       <main className="text-[#020043] container mx-auto py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-white rounded-md shadow p-6">

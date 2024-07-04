@@ -1,22 +1,23 @@
 const Testimonial = () => {
   return (
-    <div className="container mx-auto px-4 py-16">
-      <h2 className="text-3xl font-bold text-center mb-8">
-        What they say about us
-      </h2>
+    <div className="container mx-auto px-4 py-16 text-start text-[#020043} ">
+      <button className=" py-2 px-4 border rounded-full flex items-center ">
+        Testimonial
+      </button>
+      <h2 className="text-3xl font-bold my-6">What they say about us</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="bg-white rounded-lg shadow-md p-6">
-          <h3 className="text-xl font-bold mb-4">
+          <h3 className="text-xl font-bold mb-4 w-[331px]">
             Expertise and Compassion Combined
           </h3>
-          <p className="text-gray-600 mb-4">
-            I can't thank enough for their exceptional care. The doctors and
+          <p className="text-gray-600 mb-4 w-[331px]">
+            I cant thank enough for their exceptional care. The doctors and
             staff showed incredible expertise and compassion throughout my
             treatment journey. I felt truly cared for every step of the way.
           </p>
           <div className="flex items-center">
             <img
-              src="/images/testimonial-1.jpg"
+              src="https://res.cloudinary.com/dvdewrd4a/image/upload/v1707651713/samples/man-portrait.jpg"
               alt="Testimonial 1"
               className="w-12 h-12 rounded-full mr-4"
             />
@@ -98,17 +99,17 @@ const Testimonial = () => {
           </div>
         </div>
         <div className="bg-white rounded-lg shadow-md p-6">
-          <h3 className="text-xl font-bold mb-4">
+          <h3 className="text-xl font-bold mb-4 w-[331px] ">
             Life-Saving Care, Life-Changing Experience
           </h3>
-          <p className="text-gray-600 mb-4">
+          <p className="text-gray-600 mb-4 w-[331px] pb-4">
             My experience at [Healthcare Provider Name] was life-changing. The
             prompt and accurate diagnosis, coupled with the advanced treatments
             they provided, saved my life.
           </p>
           <div className="flex items-center">
             <img
-              src="/images/testimonial-2.jpg"
+              src="https://res.cloudinary.com/dvdewrd4a/image/upload/v1707651710/samples/smile.jpg"
               alt="Testimonial 2"
               className="w-12 h-12 rounded-full mr-4"
             />
@@ -162,18 +163,18 @@ const Testimonial = () => {
           </div>
         </div>
         <div className="bg-white rounded-lg shadow-md p-6">
-          <h3 className="text-xl font-bold mb-4">
+          <h3 className="text-xl font-bold mb-4 w-[331px]">
             A Partner in Health and Wellness
           </h3>
-          <p className="text-gray-600 mb-4">
+          <p className="text-gray-600 mb-4 w-[331px]">
             As a busy professional, I appreciate the convenience and quality of
             care I receive at [Healthcare Provider Name]. From telemedicine
-            consultations to routine check-ups, they've become my trusted
-            partner in health and
+            consultations to routine check-ups, theyve become my trusted partner
+            in health and
           </p>
           <div className="flex items-center">
             <img
-              src="/images/testimonial-3.jpg"
+              src="https://res.cloudinary.com/dvdewrd4a/image/upload/v1707651713/samples/man-on-a-street.jpg"
               alt="Testimonial 3"
               className="w-12 h-12 rounded-full mr-4"
             />

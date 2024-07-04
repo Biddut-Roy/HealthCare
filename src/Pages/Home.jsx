@@ -1,5 +1,6 @@
 import Footer from "./Footer";
 import Services from "./Services";
+import Testimonial from "./Testimonial";
 
 const Home = () => {
   return (
@@ -211,6 +212,10 @@ const Home = () => {
         {/* services Container */}
         <div className=" mt-40">
           <Services />
+        </div>
+        {/* Testimonial */}
+        <div>
+          <Testimonial />
         </div>
       </main>
       {/* footer section */}

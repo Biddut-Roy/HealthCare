@@ -1,3 +1,4 @@
+import Banner from "./Banner";
 import Faq from "./Faq";
 import Footer from "./Footer";
 import Services from "./Services";
@@ -221,6 +222,10 @@ const Home = () => {
         {/* Faq section */}
         <div>
           <Faq />
+        </div>
+        {/* banner section */}
+        <div>
+          <Banner />
         </div>
       </main>
       {/* footer section */}

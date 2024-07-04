@@ -1,3 +1,4 @@
+import Faq from "./Faq";
 import Footer from "./Footer";
 import Services from "./Services";
 import Testimonial from "./Testimonial";
@@ -216,6 +217,10 @@ const Home = () => {
         {/* Testimonial */}
         <div>
           <Testimonial />
+        </div>
+        {/* Faq section */}
+        <div>
+          <Faq />
         </div>
       </main>
       {/* footer section */}

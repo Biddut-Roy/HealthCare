@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Services from "./Services";
 
 const Home = () => {
@@ -212,6 +213,10 @@ const Home = () => {
           <Services />
         </div>
       </main>
+      {/* footer section */}
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };

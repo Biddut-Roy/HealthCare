@@ -59,98 +59,116 @@ const Home = () => {
         />
       </div>
       <main className="text-[#020043] container mx-auto py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="bg-white rounded-md shadow p-6">
-            <div className="text-center mb-4">
-              <h2 className="text-3xl font-bold">90%</h2>
-              <p className="text-gray-500">
-                Patient satisfaction rate, reflecting our commitment.
-              </p>
-            </div>
-            <img
-              src="/chart.svg"
-              alt="Chart"
-              width={150}
-              height={150}
-              className="mx-auto"
-            />
-          </div>
-          <div className="bg-white rounded-md shadow p-6">
-            <div className="text-center mb-4">
-              <h2 className="text-3xl font-bold">Comprehensive Care</h2>
-              <h3 className="text-2xl font-medium">for Every Patient</h3>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-white rounded-md shadow p-6 text-center">
-                <h2 className="text-3xl font-bold">500+</h2>
-                <p className="text-gray-500">Board-certified doctors</p>
-                <img
-                  src="/doctor.svg"
-                  alt="Doctor"
-                  width={50}
-                  height={50}
-                  className="mx-auto"
-                />
+        <div className=" ">
+          <div className="flex gap-6">
+            <div className="bg-white w-[216px] h-[312px] rounded-md shadow p-6">
+              <div className="text-center mb-4">
+                <h2 className="text-3xl font-bold my-6">90%</h2>
+                <p className="text-gray-500">
+                  Patient satisfaction rate, reflecting our commitment.
+                </p>
               </div>
-              <div className="bg-white rounded-md shadow p-6 text-center">
-                <h2 className="text-3xl font-bold">4.8</h2>
-                <p className="text-gray-500">Over 20,000 Patient</p>
-                <img
-                  src="/star.svg"
-                  alt="Star"
-                  width={30}
-                  height={30}
-                  className="mx-auto"
-                />
-                <div className="flex justify-center mt-2">
+              <img
+                src="https://res.cloudinary.com/dvdewrd4a/image/upload/v1720071470/chart_sgh6m8.png"
+                alt="Chart"
+                width={150}
+                height={150}
+                className="mx-auto rounded-full"
+              />
+            </div>
+            <div className="bg-white  rounded-md shadow p-6">
+              <div className="text-center mb-4">
+                <h2 className="text-3xl font-bold">Comprehensive Care</h2>
+                <h3 className="text-2xl font-medium">for Every Patient</h3>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="bg-white rounded-md shadow p-6 text-center">
+                  <h2 className="text-3xl font-bold">500+</h2>
+                  <p className="text-gray-500">Board-certified doctors</p>
                   <img
-                    src="/patient-1.jpg"
-                    alt="Patient 1"
-                    width={25}
-                    height={25}
-                    className="rounded-full mr-1"
+                    src="https://res.cloudinary.com/dvdewrd4a/image/upload/v1720071292/document_k9wpwx.webp"
+                    alt="Doctor"
+                    width={50}
+                    height={50}
+                    className="mx-auto"
                   />
+                </div>
+                <div className="bg-white rounded-md shadow p-8 mt-5 text-center">
+                  <h2 className="text-3xl font-bold flex items-center px-5">
+                    4.8{" "}
+                    <svg
+                      className="w-10 h-10 text-yellow-400"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-4.975 3.648a1 1 0 00-.95.69l-1.52 4.674c-.3.921-1.603.921-1.902 0l-1.519-4.674a1 1 0 00-.95-.69h-4.915c-.969 0-1.371-1.24-.588-1.81l4.975-3.648a1 1 0 00.95-.69l1.52-4.674z"
+                      />
+                    </svg>
+                  </h2>
+                  <p className="text-gray-500">Over 20,000 Patient</p>
                   <img
-                    src="/patient-2.jpg"
-                    alt="Patient 2"
+                    src="https://res.cloudinary.com/dvdewrd4a/image/upload/v1707651716/samples/upscale-face-1.jpg"
+                    alt="Star"
                     width={25}
                     height={25}
-                    className="rounded-full mr-1"
+                    className="mx-auto rounded-full"
                   />
+                  <div className="flex justify-center mt-2">
+                    <img
+                      src="https://res.cloudinary.com/dvdewrd4a/image/upload/v1707651717/cld-sample.jpg"
+                      alt="Patient 1"
+                      width={25}
+                      height={25}
+                      className="rounded-full mr-1"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/dvdewrd4a/image/upload/v1707651716/samples/upscale-face-1.jpg"
+                      alt="Patient 2"
+                      width={25}
+                      height={25}
+                      className="rounded-full mr-1"
+                    />
+                    <img
+                      src="https://res.cloudinary.com/dvdewrd4a/image/upload/v1707651717/cld-sample.jpg"
+                      alt="Patient 3"
+                      width={25}
+                      height={25}
+                      className="rounded-full mr-1"
+                    />
+                  </div>
+                </div>
+                <div className="bg-white rounded-md shadow p-6 text-center">
+                  <h2 className="text-3xl font-bold">$5000</h2>
+                  <p className="text-gray-500">Money spend for poor patient</p>
                   <img
-                    src="/patient-3.jpg"
-                    alt="Patient 3"
-                    width={25}
-                    height={25}
-                    className="rounded-full mr-1"
+                    src="https://res.cloudinary.com/dvdewrd4a/image/upload/v1720071185/coin_r5q4in.jpg"
+                    alt="Money"
+                    width={50}
+                    height={50}
+                    className="mx-auto"
                   />
                 </div>
               </div>
-              <div className="bg-white rounded-md shadow p-6 text-center">
-                <h2 className="text-3xl font-bold">$5000</h2>
-                <p className="text-gray-500">Money spend for poor patient</p>
-                <img
-                  src="/money.svg"
-                  alt="Money"
-                  width={50}
-                  height={50}
-                  className="mx-auto"
-                />
+            </div>
+            <div className="bg-white rounded-md shadow p-6 w-[216px] h-[312px]">
+              <div className="text-center mb-4">
+                <h2 className="text-3xl font-bold my-6">50+</h2>
+                <p className="text-gray-500">Free lesson video for patient</p>
               </div>
+              <img
+                src="https://img.icons8.com/?size=100&id=M8O2mSeytf8P&format=png&color=000000"
+                alt="Video"
+                width={100}
+                height={100}
+                className="mx-auto"
+              />
             </div>
-          </div>
-          <div className="bg-white rounded-md shadow p-6">
-            <div className="text-center mb-4">
-              <h2 className="text-3xl font-bold">50+</h2>
-              <p className="text-gray-500">Free lesson video for patient</p>
-            </div>
-            <img
-              src="/video.svg"
-              alt="Video"
-              width={100}
-              height={100}
-              className="mx-auto"
-            />
           </div>
         </div>
         {/* banner-2 container */}
